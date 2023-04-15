@@ -1,0 +1,100 @@
+body {
+  background-color: #f0f0f0; 
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  color: #333; 
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color: #6D071A; 
+  border-bottom : 1px solid grey;
+}
+
+header {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  color: #1a237e;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-bottom : 2px solid grey;
+}
+
+
+
+table, td {
+
+	border : 1px solid #333;
+
+}
+
+thead, tfoot {
+	background-color: #333;
+	color : #fff;
+}
+
+figcaption {
+
+	margin-top: 10px;
+	font-style: italic;
+	text-align: center;
+}
+
+
+
+
+.alignement {
+  display: flex;
+  align-items: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas: 
+    "left middle right";
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-gap: 20px;
+  margin: 20px;
+}
+
+.gauche{
+  grid-area: left;
+}
+
+.milieu {
+  grid-area: middle;
+}
+
+.droite {
+  grid-area: right;
+}
+
+
+.gauche img {
+  width: 70%;
+}
+
+.milieu p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.droite {
+  background-color: #eee;
+  padding: 20px;
+}
